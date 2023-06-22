@@ -1,0 +1,11 @@
+#cabecalho {
+    background-color: #E6A9B4;
+    width: 1440px;
+    height: 220px;
+    color: white;
+    text-align: center;
+}
+
+#cabecalho, a {
+    color: white;
+}
