@@ -1,15 +1,16 @@
-/*  ----------  TYPES  ----------  */
+/*  -----------------------  TYPES  -----------------------  */
 
 body {
     background-color: #FAEDE8;
     margin: 0px;
 }
 
-/*  ----------  IDS  ----------  */
+/*  -----------------------  IDS  -----------------------  */
 
 #header, #header img, head {
-    width: 100%;
-    max-width: 100%;
+    width: 100vw;
+    min-width: 100vw;
+    max-width: 100vw;
     height: auto;
     border: 0px;
     padding: 0px;
@@ -18,12 +19,9 @@ body {
     
 }
 
-#footer {
-    text-align: center;
-}
-
+/* ------ Horizontal Menu ------ */
 #horizontal-menu {
-    width: 100%;
+    width: 100vw;
     height: auto;
     background-color: #e6a9b4;
     color: white;
@@ -31,7 +29,6 @@ body {
     padding: 0px;
     font-weight: bold;
     font-size: 29px;
-    max-width: 100%;
     margin-top: -4px;
     position: sticky;
     top: 0;
@@ -64,7 +61,51 @@ body {
      rgba(251,251,251,0) 100%);
 }
 
-/*  ----------  CLASSES  ----------  */
+/* ------ Side Menu ------ */
+aside {
+    position: fixed;
+    left: 0px;
+    display: flex;
+    float: left;
+    height: 100vh;
+    top: 0;
+    z-index: 2;
+    overflow: hidden;
+}
+
+#side-menu-icon img {
+    height: 25px;
+    width: 25px;
+    padding: 15px 12px;
+    background-color:goldenrod;
+}
+
+#side-menu-icon {
+    background-color:rgb(252, 192, 41);
+    height: 100vh;
+}
+
+#side-menu {
+    left: 0;
+    color: white;
+    background-color: gold;
+    width: 0px;
+}
+
+#side-menu ul li {
+    list-style: none;
+    width:fit-content;
+    overflow: hidden;
+    padding-right: 40px;
+    font-size: 20px;
+}
+
+/* ------ Footer ------ */
+#footer {
+    text-align: center;
+}
+
+/*  -----------------------  CLASSES  -----------------------  */
 
 .content {
     background-color: white;
