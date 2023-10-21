@@ -75,20 +75,16 @@ aside {
     top: 0;
     z-index: 2;
     overflow: hidden;
-
     padding: 0px;
     margin: 0px;
     border: 0px;
-    outline: 0px solid transparent;
 }
-
 
 #side-menu-icon img {
     height: 25px;
     width: 25px;
     padding: 15px 12px;
     background-color:goldenrod;
-
     cursor: pointer;
 }
 
